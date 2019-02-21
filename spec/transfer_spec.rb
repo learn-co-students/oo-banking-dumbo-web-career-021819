@@ -72,6 +72,8 @@ describe 'Transfer' do
       expect(bad_transfer.execute_transaction).to eq("Transaction rejected. Please check your account balance.")
       expect(bad_transfer.status).to eq("rejected")
     end
+
+
   end
 
   describe '#reverse_transfer' do
